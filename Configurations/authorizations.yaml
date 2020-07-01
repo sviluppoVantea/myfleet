@@ -1,4 +1,5 @@
 ---
+authorizations:
 - microcervice: auth
   resource: utenti
   description: Utenti
