@@ -1,5 +1,5 @@
 ---
-permissions:
+myfleet:
   authorizations:
   - microcervice: auth
     resource: utenti
