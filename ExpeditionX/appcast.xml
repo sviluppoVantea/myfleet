@@ -4,10 +4,10 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://github.com/sviluppoVantea/myfleet/tree/master/ExpeditionX/appcast.xml</link>
         <item>
-            <title>Version 1.0.0 (14)</title>
+            <title>Version 1.0.1 (14)</title>
             <description>+ Added support to automatically update the app.</description>
             <pubDate>Thu, 22 Sep 2022 17:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/tree/master/ExpeditionX/ExpeditionX.apk" sparkle:version="1.0.0 (14)" sparkle:os="android" />
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/tree/master/ExpeditionX/ExpeditionX.apk" sparkle:version="1.0.1" sparkle:os="android" />
         </item>
     </channel>
 </rss>
