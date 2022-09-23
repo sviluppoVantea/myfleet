@@ -7,7 +7,7 @@
             <title>Version 1.0.2 (15)</title>
             <description>+ Added support to automatically update the app.</description>
             <pubDate>Thu, 22 Sep 2022 17:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX.apk" sparkle:version="1.0.2" sparkle:os="android" />
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b15.apk" sparkle:version="1.0.2" sparkle:os="android" />
         </item>
     </channel>
 </rss>
