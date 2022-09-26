@@ -5,7 +5,7 @@
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
             <title>Versione 1.0.2 (15)</title>
-            <description>+ Aggiunto supporto per completare la missione automaticamente al completamento di tutti i POI.<br>* Il menu dei veicoli ora mostra i veicoli di tutte le flotte.</description>
+            <description>+ Aggiunto supporto per completare la missione automaticamente al completamento di tutti i POI.\n* Il menu dei veicoli ora mostra i veicoli di tutte le flotte.</description>
             <pubDate>Mon, 26 Sep 2022 19:30:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b15.apk" sparkle:version="1.0.2" sparkle:os="android" />
         </item>
