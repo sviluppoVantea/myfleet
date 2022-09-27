@@ -4,12 +4,12 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
-            <title>Versione 1.0.2 (15)</title>
+            <title>Versione 1.0.3 (16)</title>
             <description>
-				+ Aggiunto supporto per completare la missione automaticamente al completamento di tutti i POI.
-				* Il dropdown dei veicoli ora mostra tutte le flotte.</description>
-            <pubDate>Mon, 26 Sep 2022 19:30:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b15.apk" sparkle:version="1.0.2" sparkle:os="android" />
+				* Modificata logica per variazioni al DDT — adesso vengono inviate ai servizi prima di scaricare il PDF di un DDT.
+				+ Aggiunto pulsante Share nella schermata del DDT, accanto a Stampa — funziona come quest'ultimo, ossia la firma compare nel PDF che viene condiviso *solo* se già inviata ai servizi.</description>
+            <pubDate>Tue, 27 Sep 2022 19:30:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b16.apk" sparkle:version="1.0.3" sparkle:os="android" />
         </item>
     </channel>
 </rss>
