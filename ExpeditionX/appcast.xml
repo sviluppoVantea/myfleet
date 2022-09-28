@@ -4,6 +4,13 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.4 (17)</title>
+            <description>
+				+ [WIP] Aggiunto pulsante 'lista' nella schermata Missione — mostra un PDF con il Bill Of Materials della missione (ancora provvisorio).</description>
+            <pubDate>Wed, 28 Sep 2022 22:30:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b17.apk" sparkle:version="1.0.4" sparkle:os="android" />
+        </item>
+        <item>
             <title>Versione 1.0.3 (16)</title>
             <description>
 				* Modificata logica per variazioni al DDT — adesso vengono inviate ai servizi prima di scaricare il PDF di un DDT.
