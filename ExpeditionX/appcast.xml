@@ -4,19 +4,22 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.5 (18)</title>
+            <description>
+				+ La distinta base viene ora mostrata quando si entra in una missione, sino a quando non viene stampata.
+				+ Aggiunto messaggio di conferma quando si invia il PDF firmato di un DDT.
+				+ Aggiunto highlight delle scadenze/note di credito selezionate nella schermata Incasso.
+				* Risolto problema quando si inviano delle proposte incasso e la data non è stata selezionata (perché non necessaria).
+				</description>
+            <pubDate>Thu, 28 Sep 2022 21:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b18.apk" sparkle:version="1.0.5" sparkle:os="android" />
+        </item>
+        <item>
             <title>Versione 1.0.4 (17)</title>
             <description>
 				+ [WIP] Aggiunto pulsante 'lista' nella schermata Missione — mostra un PDF con il Bill Of Materials della missione (ancora provvisorio).</description>
             <pubDate>Wed, 28 Sep 2022 22:30:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b17.apk" sparkle:version="1.0.4" sparkle:os="android" />
-        </item>
-        <item>
-            <title>Versione 1.0.3 (16)</title>
-            <description>
-				* Modificata logica per variazioni al DDT — adesso vengono inviate ai servizi prima di scaricare il PDF di un DDT.
-				+ Aggiunto pulsante Share nella schermata del DDT, accanto a Stampa — funziona come quest'ultimo, ossia la firma compare nel PDF che viene condiviso *solo* se già inviata ai servizi.</description>
-            <pubDate>Tue, 27 Sep 2022 19:30:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b16.apk" sparkle:version="1.0.3" sparkle:os="android" />
         </item>
     </channel>
 </rss>
