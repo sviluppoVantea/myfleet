@@ -14,8 +14,8 @@
 				* Risolto critical bug - quando si inviava una proposta incassi dopo aver completato la consegna, quest'ultima risultava non più completa.
 				* Risolto critical bug - dopo il completamento di una missione, a volte la schermata di scelta veicoli mostrava la missione come ancora in corso.
 				* Durante il logout, l'interfaccia di scelta veicolo è ora disabilitata.</description>
-            <pubDate>Thu, 28 Sep 2022 21:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b18.apk" sparkle:version="1.0.5" sparkle:os="android" />
+            <pubDate>Sat, 01 Oct 2022 01:30:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b19.apk" sparkle:version="1.0.6" sparkle:os="android" />
         </item>
         <item>
             <title>Versione 1.0.5 (18)</title>
