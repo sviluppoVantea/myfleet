@@ -4,6 +4,20 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.6 (19)</title>
+            <description>
+				+ All'invio del PDF firmato di un DDT, l'app richiede l'invio automatico dell'email – il servizio ONE non è ancora operativo: quando lo sarà, i PDF inviati dall'app invieranno anche l'email.
+				+ Lo stato di stampa della distinta base viene mantenuto anche se si esce erroneamente da una missione.
+				+ Salvare la distinta base come PDF dall'interfaccia di stampa di sistema è ora equivalente a stamparla.
+				+ La distinta base ora include la data della missione, oltre alla fascia oraria, destinazioni e veicolo.
+				+ Aggiunto messaggio di conferma all'invio di una proposta incassi.
+				* Risolto critical bug - quando si inviava una proposta incassi dopo aver completato la consegna, quest'ultima risultava non più completa.
+				* Risolto critical bug - dopo il completamento di una missione, a volte la schermata di scelta veicoli mostrava la missione come ancora in corso.
+				* Durante il logout, l'interfaccia di scelta veicolo è ora disabilitata.</description>
+            <pubDate>Thu, 28 Sep 2022 21:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b18.apk" sparkle:version="1.0.5" sparkle:os="android" />
+        </item>
+        <item>
             <title>Versione 1.0.5 (18)</title>
             <description>
 				+ La distinta base viene ora mostrata quando si entra in una missione, sino a quando non viene stampata.
@@ -13,13 +27,6 @@
 				</description>
             <pubDate>Thu, 28 Sep 2022 21:00:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b18.apk" sparkle:version="1.0.5" sparkle:os="android" />
-        </item>
-        <item>
-            <title>Versione 1.0.4 (17)</title>
-            <description>
-				+ [WIP] Aggiunto pulsante 'lista' nella schermata Missione — mostra un PDF con il Bill Of Materials della missione (ancora provvisorio).</description>
-            <pubDate>Wed, 28 Sep 2022 22:30:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b17.apk" sparkle:version="1.0.4" sparkle:os="android" />
         </item>
     </channel>
 </rss>
