@@ -4,6 +4,18 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.7 (20)</title>
+            <description>
++ Le proposte incassi ora contengono la targa del veicolo della missione corrente.
+* La missione viene ora aggiornata sul server ogni volta che si conclude un incarico, invece che alla chiusura di una destinazione.
+* Il messaggio per pagamento via POS ora specifica che il pagamento deve avvenire prima dell'invio della proposta incassi.
+* Durante il logout, l'interfaccia di scelta veicolo è ora disabilitata.
+			</description>
+            <pubDate>Mon, 03 Oct 2022 18:45:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b20.apk" sparkle:version="1.0.7" sparkle:os="android" />
+        </item>
+
+        <item>
             <title>Versione 1.0.6 (19)</title>
             <description>
 				+ All'invio del PDF firmato di un DDT, l'app richiede l'invio automatico dell'email – il servizio ONE non è ancora operativo: quando lo sarà, i PDF inviati dall'app invieranno anche l'email.
@@ -13,21 +25,9 @@
 				+ Aggiunto messaggio di conferma all'invio di una proposta incassi.
 				* Risolto critical bug - inviando una proposta incassi dopo una consegna, quest'ultima risultava non più completa.
 				* Risolto critical bug - al completamento della missione, a volte veniva mostrata come ancora in corso.
-				* Durante il logout, l'interfaccia di scelta veicolo è ora disabilitata.
 			</description>
             <pubDate>Sat, 01 Oct 2022 01:30:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b19.apk" sparkle:version="1.0.6" sparkle:os="android" />
-        </item>
-        <item>
-            <title>Versione 1.0.5 (18)</title>
-            <description>
-				+ La distinta base viene ora mostrata quando si entra in una missione, sino a quando non viene stampata.
-				+ Aggiunto messaggio di conferma quando si invia il PDF firmato di un DDT.
-				+ Aggiunto highlight delle scadenze/note di credito selezionate nella schermata Incasso.
-				* Risolto problema quando si inviano delle proposte incasso e la data non è stata selezionata (perché non necessaria).
-				</description>
-            <pubDate>Thu, 28 Sep 2022 21:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b18.apk" sparkle:version="1.0.5" sparkle:os="android" />
         </item>
     </channel>
 </rss>
