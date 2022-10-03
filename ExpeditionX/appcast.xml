@@ -9,6 +9,7 @@
 + Le proposte incassi ora contengono la targa del veicolo della missione corrente.
 * La missione viene ora aggiornata sul server ogni volta che si conclude un incarico, invece che alla chiusura di una destinazione.
 * Il messaggio per pagamento via POS ora specifica che il pagamento deve avvenire prima dell'invio della proposta incassi.
++ Se il pagamento via POS fallisce, l'app mostra un messaggio esplicito: chiaramente l'invio della proposta incassi non procede.
 * Durante il logout, l'interfaccia di scelta veicolo è ora disabilitata.
 			</description>
             <pubDate>Mon, 03 Oct 2022 18:45:00 +0000</pubDate>
