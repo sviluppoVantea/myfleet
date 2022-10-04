@@ -4,6 +4,16 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.8 (21)</title>
+            <description>
++ Dopo l'invio di una proposta incassi, l'estratto conto del cliente viene ora aggiornato dal server.
++ Nella schermata Dettaglio vengono mostrate le descrizioni (laddove presenti) dei vari incarichi.
+* L'intestazione del PDF della distinta base usa font leggermente più piccoli.
+			</description>
+            <pubDate>Tue, 04 Oct 2022 16:45:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b21.apk" sparkle:version="1.0.8" sparkle:os="android" />
+        </item>
+        <item>
             <title>Versione 1.0.7 (20)</title>
             <description>
 + Le proposte incassi ora contengono la targa del veicolo della missione corrente.
@@ -14,21 +24,6 @@
 			</description>
             <pubDate>Mon, 03 Oct 2022 18:45:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b20.apk" sparkle:version="1.0.7" sparkle:os="android" />
-        </item>
-
-        <item>
-            <title>Versione 1.0.6 (19)</title>
-            <description>
-				+ All'invio del PDF firmato di un DDT, l'app richiede l'invio automatico dell'email – il servizio ONE non è ancora operativo: quando lo sarà, i PDF inviati dall'app invieranno anche l'email.
-				+ Lo stato di stampa della distinta base viene mantenuto anche se si esce erroneamente daΩ una missione.
-				+ Salvare la distinta base come PDF dall'interfaccia di stampa di sistema equivale a stamparla.
-				+ La distinta base ora include data della missione, fascia oraria, destinazioni e veicolo.
-				+ Aggiunto messaggio di conferma all'invio di una proposta incassi.
-				* Risolto critical bug - inviando una proposta incassi dopo una consegna, quest'ultima risultava non più completa.
-				* Risolto critical bug - al completamento della missione, a volte veniva mostrata come ancora in corso.
-			</description>
-            <pubDate>Sat, 01 Oct 2022 01:30:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b19.apk" sparkle:version="1.0.6" sparkle:os="android" />
         </item>
     </channel>
 </rss>
