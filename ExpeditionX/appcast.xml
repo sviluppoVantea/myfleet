@@ -4,6 +4,15 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.9 (22)</title>
+            <description>
++ Aggiunto pulsante 'Abbandona missione' quando c'è una missione in corso – se si conferma l'abbandono, bisogna scegliere nuovamente un veicolo.
+- Rimosso tap all'esterno degli alerts di conferma per annullare – è ora necessario premere il pulsante 'Annulla' esplcitamente.
+			</description>
+            <pubDate>Web, 04 Oct 2022 15:30:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b22.apk" sparkle:version="1.0.9" sparkle:os="android" />
+        </item>
+        <item>
             <title>Versione 1.0.8 (21)</title>
             <description>
 + Dopo l'invio di una proposta incassi, l'estratto conto del cliente viene ora aggiornato dal server.
@@ -12,18 +21,6 @@
 			</description>
             <pubDate>Tue, 04 Oct 2022 16:45:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b21.apk" sparkle:version="1.0.8" sparkle:os="android" />
-        </item>
-        <item>
-            <title>Versione 1.0.7 (20)</title>
-            <description>
-+ Le proposte incassi ora contengono la targa del veicolo della missione corrente.
-* La missione viene ora aggiornata sul server ogni volta che si conclude un incarico, invece che alla chiusura di una destinazione.
-* Il messaggio per pagamento via POS ora specifica che il pagamento deve avvenire prima dell'invio della proposta incassi.
-+ Se il pagamento via POS fallisce, l'app mostra un messaggio esplicito: chiaramente l'invio della proposta incassi non procede.
-* Durante il logout, l'interfaccia di scelta veicolo è ora disabilitata.
-			</description>
-            <pubDate>Mon, 03 Oct 2022 18:45:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b20.apk" sparkle:version="1.0.7" sparkle:os="android" />
         </item>
     </channel>
 </rss>
