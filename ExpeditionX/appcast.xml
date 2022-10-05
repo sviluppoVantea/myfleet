@@ -7,6 +7,7 @@
             <title>Versione 1.0.9 (22)</title>
             <description>
 + Aggiunto pulsante 'Abbandona missione' quando c'è una missione in corso – se si conferma l'abbandono, bisogna scegliere nuovamente un veicolo.
++ Per entrare in una missione, è ora possibile fare tap anche sul logo 'XE' sopra il pulsante 'ENTRA'.
 - Rimosso tap all'esterno degli alerts di conferma per annullare – è ora necessario premere il pulsante 'Annulla' esplcitamente.
 			</description>
             <pubDate>Web, 04 Oct 2022 15:30:00 +0000</pubDate>
