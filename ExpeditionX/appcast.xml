@@ -6,7 +6,8 @@
         <item>
             <title>Versione 1.0.10 (23)</title>
             <description>
-- Risolto critical bug: se l'app veniva chiusa con una missione in corso, al rilancio il tracciamento della posizione non era attivo.
+- Risolto critical bug: se l'app veniva chiusa con una missione in corso, al rilancio il tracciamento della posizione veniva effettuato.
+* L'app ora richiede esplicitamente le autorizzazioni — se non ancora accordate — ad ogni accesso alla missione (invece della prima volta).
 			</description>
             <pubDate>Thu, 06 Oct 2022 19:00:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b23.apk" sparkle:version="1.0.10" sparkle:os="android" />
