@@ -4,6 +4,15 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.11 (24)</title>
+            <description>
+- Risolto problema di scroll nella schermata Missione.
+* Gli articoli nella distinta di base sono ordinati alfabeticamente.
+			</description>
+            <pubDate>Fri, 07 Oct 2022 15:45:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b24.apk" sparkle:version="1.0.11" sparkle:os="android" />
+        </item>
+        <item>
             <title>Versione 1.0.10 (23)</title>
             <description>
 - Risolto critical bug: se l'app veniva chiusa con una missione in corso, al rilancio il tracciamento della posizione veniva effettuato.
