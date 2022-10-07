@@ -6,8 +6,8 @@
         <item>
             <title>Versione 1.0.12 (25)</title>
             <description>
-+ Aggiunto supporto per pagamento alla consegna: il pulsante DDT in alto a destra adesso chiede se il cliente effettua il pagamento.
-  Completato il pagamento, viene visualizzata la fattura per il DDT: è necessario firmarla ed inviarla per procedere.
++ Aggiunto supporto per pagamento alla consegna tramite POS: il pulsante DDT in alto a destra, dopo aver inviato eventuali modifiche, adesso chiede se il cliente effettua il pagamento.
+  Completato il pagamento, viene visualizzata la fattura per il DDT: è necessario firmarla ed inviarla per procedere. (Al momento, la creazione della fattura non viene riportata visualmente dall'app: attendere che compaia il PDF dopo il pagamento.)
   Completato l'invio della fattura, viene visualizzato il DDT come al solito.
 - Risolto problema con articoli ripetuti nella distinta base.
 			</description>
