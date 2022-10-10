@@ -6,11 +6,11 @@
         <item>
             <title>Versione 1.0.13 (26)</title>
             <description>
-+ Aggiunto supporto per scaricare i PDF già firmati dei DDT quando si chiude/riapre l'app con una missione in corso e destinazioni modificate.
-+ Aggiunto messaggio di attesa durante la generazione di una fattura, dopo aver effettuato il pagamento alla consegna.
-* I pulsanti 'Posizione'/'Navigatore' in alto a dx della schermata Dettaglio sono presenti solo se la destinazione non è completa.
-* Le schede Dettaglio/Consegna/Incasso sono ora evidenziati nelle destinazioni già complete.
-- Risolto critical bug nella schermata Consegna — il pulsante 'DDT' in alto a dx mostrava la richiesta di pagamento anche per consegne già completate.
++ Aggiunto supporto per scaricare i PDF già firmati dei DDT, quando si chiude/riapre l'app con una missione in corso e destinazioni modificate (consegne già effettuate).
++ Aggiunto messaggio di attesa durante la generazione di una fattura, subito dopo aver effettuato il pagamento alla consegna.
+* I pulsanti Posizione/Navigatore in alto a dx della schermata Dettaglio sono presenti solo se la destinazione non è completa.
+* Le schede Dettaglio/Consegna/Incasso sono ora evidenziate per le destinazioni già complete.
+- Risolto critical bug nella schermata Consegna — il pulsante DDT in alto a dx mostrava la richiesta di pagamento anche per consegne già completate.
 - Risolto critical bug nella schermata Missione — chiudendo/riaprendo l'app, lo stato delle destinazioni poteva essere perso.
 			</description>
             <pubDate>Mon, 10 Oct 2022 20:00:00 +0000</pubDate>
