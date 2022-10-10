@@ -4,6 +4,19 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.13 (26)</title>
+            <description>
++ Aggiunto supporto per scaricare i PDF già firmati dei DDT quando si chiude/riapre l'app con una missione in corso e destinazioni modificate.
++ Aggiunto messaggio di attesa durante la generazione di una fattura, dopo aver effettuato il pagamento alla consegna.
+* I pulsanti 'Posizione'/'Navigatore' in alto a dx della schermata Dettaglio sono presenti solo se la destinazione non è completa.
+* Le schede Dettaglio/Consegna/Incasso sono ora evidenziati nelle destinazioni già complete.
+- Risolto critical bug nella schermata Consegna — il pulsante 'DDT' in alto a dx mostrava la richiesta di pagamento anche per consegne già completate.
+- Risolto critical bug nella schermata Missione — chiudendo/riaprendo l'app, lo stato delle destinazioni poteva essere perso.
+			</description>
+            <pubDate>Mon, 10 Oct 2022 20:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b26.apk" sparkle:version="1.0.13" sparkle:os="android" />
+        </item>
+        <item>
             <title>Versione 1.0.12 (25)</title>
             <description>
 + Aggiunto supporto per pagamento alla consegna tramite POS: il pulsante DDT in alto a destra, dopo aver inviato eventuali modifiche, adesso chiede se il cliente effettua il pagamento.
@@ -22,25 +35,6 @@
 			</description>
             <pubDate>Fri, 07 Oct 2022 15:45:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b24.apk" sparkle:version="1.0.11" sparkle:os="android" />
-        </item>
-        <item>
-            <title>Versione 1.0.10 (23)</title>
-            <description>
-- Risolto critical bug: se l'app veniva chiusa con una missione in corso, al rilancio il tracciamento della posizione veniva effettuato.
-* L'app ora richiede esplicitamente le autorizzazioni — se non ancora accordate — ad ogni accesso alla missione (invece della prima volta).
-			</description>
-            <pubDate>Thu, 06 Oct 2022 19:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b23.apk" sparkle:version="1.0.10" sparkle:os="android" />
-        </item>
-        <item>
-            <title>Versione 1.0.9 (22)</title>
-            <description>
-+ Aggiunto pulsante 'Abbandona missione' quando c'è una missione in corso – se si conferma l'abbandono, bisogna scegliere nuovamente un veicolo.
-+ Per entrare in una missione, è ora possibile fare tap anche sul logo 'XE' sopra il pulsante 'ENTRA'.
-- Rimosso tap all'esterno degli alerts di conferma per annullare – è ora necessario premere il pulsante 'Annulla' esplcitamente.
-			</description>
-            <pubDate>Wed, 05 Oct 2022 15:30:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b22.apk" sparkle:version="1.0.9" sparkle:os="android" />
         </item>
     </channel>
 </rss>
