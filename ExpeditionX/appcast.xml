@@ -6,10 +6,10 @@
         <item>
             <title>Versione 1.0.14 (27)</title>
             <description>
-+ Aggiunto pulsante 'Fattura' in alto a dx (accanto a 'DDT') nella schermata Consegna — visualizza la fattura già pagata e firmata (se presente).
-* Modificata attivazione del terminale POS nelle schermate Consegna e Incasso.
++ Aggiunto pulsante 'Fattura' in alto a dx (accanto a 'DDT') nella schermata Consegna - visualizza la fattura già pagata e firmata (se presente).
 * La schermata Incasso è ora presente solo se la destinazione contiene esplicitamente un incarico di tipo 'Incassi'.
 * I pulsanti +/- nella schermata Consegna vengono ora abilitati/disabilitati in base alle quantità correnti.
+* Modificata attivazione del terminale POS nelle schermate Consegna e Incasso.
 			</description>
             <pubDate>Tue, 11 Oct 2022 20:45:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b27.apk" sparkle:version="1.0.14" sparkle:os="android" />
