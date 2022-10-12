@@ -4,6 +4,16 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.15 (28)</title>
+            <description>
++ Dopo il pagamento alla consegna, all'invio della fattura firmata il backend manda un'email con allegato il PDF della fattura, come avviene per i DDT firmati.
+* Nella schermata Consegna, l'interfaccia di modifica delle quantità articoli e vuoti a rendere dà più spazio alla descrizione articoli/vuoti.
+- Risolto update a schermo delle quantità di articoli/vuoti dopo aver inviato il DDT firmato.
+			</description>
+            <pubDate>Tue, 12 Oct 2022 18:45:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b28.apk" sparkle:version="1.0.15" sparkle:os="android" />
+        </item>
+        <item>
             <title>Versione 1.0.14 (27)</title>
             <description>
 + Aggiunto pulsante 'Fattura' in alto a dx (accanto a 'DDT') nella schermata Consegna - visualizza la fattura già pagata e firmata (se presente).
@@ -26,17 +36,6 @@
 			</description>
             <pubDate>Mon, 10 Oct 2022 20:00:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b26.apk" sparkle:version="1.0.13" sparkle:os="android" />
-        </item>
-        <item>
-            <title>Versione 1.0.12 (25)</title>
-            <description>
-+ Aggiunto supporto per pagamento alla consegna tramite POS: il pulsante DDT in alto a destra, dopo aver inviato eventuali modifiche, adesso chiede se il cliente effettua il pagamento.
-  Completato il pagamento, viene visualizzata la fattura per il DDT: è necessario firmarla ed inviarla per procedere. (Al momento, la creazione della fattura non viene riportata visualmente dall'app: attendere che compaia il PDF dopo il pagamento.)
-  Completato l'invio della fattura, viene visualizzato il DDT come al solito.
-- Risolto problema con articoli ripetuti nella distinta base.
-			</description>
-            <pubDate>Fri, 07 Oct 2022 20:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b25.apk" sparkle:version="1.0.12" sparkle:os="android" />
         </item>
     </channel>
 </rss>
