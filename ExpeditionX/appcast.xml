@@ -4,13 +4,23 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.16 (29)</title>
+            <description>
+- Risolto bug critico: dopo il pagamento alla consegna, se la generazione della fattura falliva l'app non mostrava nessun errore, e non era possibile completare la consegna.
+- Risolto bug critico: dopo il pagamento alla consegna, se la fattura non era stata firmata l'app chiedeva nuovamente di effettuare il pagamento.
+- Risolto problema nella conferma del logout — se la password era vuota, il logout veniva effettuato lo stesso.
+			</description>
+            <pubDate>Thu, 13 Oct 2022 21:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b29.apk" sparkle:version="1.0.16" sparkle:os="android" />
+        </item>
+        <item>
             <title>Versione 1.0.15 (28)</title>
             <description>
 + Dopo il pagamento alla consegna, all'invio della fattura firmata il backend manda un'email con allegato il PDF della fattura, come avviene per i DDT firmati.
 * Nella schermata Consegna, l'interfaccia di modifica delle quantità articoli e vuoti a rendere dà più spazio alla descrizione articoli/vuoti.
 - Risolto update a schermo delle quantità di articoli/vuoti dopo aver inviato il DDT firmato.
 			</description>
-            <pubDate>Tue, 12 Oct 2022 18:45:00 +0000</pubDate>
+            <pubDate>Wed, 12 Oct 2022 18:45:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b28.apk" sparkle:version="1.0.15" sparkle:os="android" />
         </item>
         <item>
@@ -23,19 +33,6 @@
 			</description>
             <pubDate>Tue, 11 Oct 2022 20:45:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b27.apk" sparkle:version="1.0.14" sparkle:os="android" />
-        </item>
-        <item>
-            <title>Versione 1.0.13 (26)</title>
-            <description>
-+ Aggiunto supporto per scaricare i PDF già firmati dei DDT, quando si chiude/riapre l'app con una missione in corso e destinazioni modificate (consegne già effettuate).
-+ Aggiunto messaggio di attesa durante la generazione di una fattura, subito dopo aver effettuato il pagamento alla consegna.
-* I pulsanti Posizione/Navigatore in alto a dx della schermata Dettaglio sono presenti solo se la destinazione non è completa.
-* Le schede Dettaglio/Consegna/Incasso sono ora evidenziate per le destinazioni già complete.
-- Risolto critical bug nella schermata Consegna — il pulsante DDT in alto a dx mostrava la richiesta di pagamento anche per consegne già completate.
-- Risolto critical bug nella schermata Missione — chiudendo/riaprendo l'app, lo stato delle destinazioni poteva essere perso.
-			</description>
-            <pubDate>Mon, 10 Oct 2022 20:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b26.apk" sparkle:version="1.0.13" sparkle:os="android" />
         </item>
     </channel>
 </rss>
