@@ -4,6 +4,16 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.17 (30)</title>
+            <description>
++ La stampa della distinta base ora può essere annullata: se si sceglie 'No' nella richiesta di stampa, l'app non chiederà più di stampare la distinta.
+* Quando una consegna è stata già effettuata (con o senza pagamento), l'elenco degli articoli/vuoti ora espande le descrizioni.
+- Risolto problema di selezione scadenze/note di credito nella schermata Incasso — a volte era necessario fare tap più volte per selezionare/deselezionare.
+			</description>
+            <pubDate>Fri, 14 Oct 2022 17:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b30.apk" sparkle:version="1.0.17" sparkle:os="android" />
+        </item>
+        <item>
             <title>Versione 1.0.16 (29)</title>
             <description>
 - Risolto bug critico: dopo il pagamento alla consegna, se la generazione della fattura falliva, l'app non mostrava nessun errore: non era possibile completare la consegna.
@@ -22,17 +32,6 @@
 			</description>
             <pubDate>Wed, 12 Oct 2022 18:45:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b28.apk" sparkle:version="1.0.15" sparkle:os="android" />
-        </item>
-        <item>
-            <title>Versione 1.0.14 (27)</title>
-            <description>
-+ Aggiunto pulsante 'Fattura' in alto a dx (accanto a 'DDT') nella schermata Consegna - visualizza la fattura già pagata e firmata (se presente).
-* La schermata Incasso è ora presente solo se la destinazione contiene esplicitamente un incarico di tipo 'Incassi'.
-* I pulsanti +/- nella schermata Consegna vengono ora abilitati/disabilitati in base alle quantità correnti.
-* Modificata attivazione del terminale POS nelle schermate Consegna e Incasso.
-			</description>
-            <pubDate>Tue, 11 Oct 2022 20:45:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b27.apk" sparkle:version="1.0.14" sparkle:os="android" />
         </item>
     </channel>
 </rss>
