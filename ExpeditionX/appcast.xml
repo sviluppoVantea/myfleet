@@ -6,7 +6,7 @@
         <item>
             <title>Versione 1.0.18 (32)</title>
             <description>
-+ Aggiunto supporto per fare login automaticamente con il terminale POS — non è più necessario inserire nuovamente le credenziali dopo un'aggiornamento dell'app.
++ Aggiunto supporto per fare login automaticamente con il terminale POS — non è più necessario inserire nuovamente le credenziali SumUp dopo un'aggiornamento dell'app.
 * Modificato il flusso di pagamento alla consegna — la richiesta di pagamento avviene dopo l'invio del DDT firmato, e non è più necessario firmare la fattura (è possibile comunque visualizzarla, non firmata).
 + Aggiunto dropdown 'Ordina per' nell'intestazione della schermata Incasso — ordina le scadenze/note di credito disponibili per il criterio scelto.
 			</description>
