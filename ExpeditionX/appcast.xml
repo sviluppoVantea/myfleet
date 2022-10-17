@@ -4,6 +4,16 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.18 (32)</title>
+            <description>
++ Aggiunto supporto per fare login automaticamente con il terminale POS — non è più necessario inserire nuovamente le credenziali dopo un'aggiornamento dell'app.
+* Modificato il flusso di pagamento alla consegna — la richiesta di pagamento avviene dopo l'invio del DDT firmato, e non è più necessario firmare la fattura (è possibile comunque visualizzarla, non firmata).
++ Aggiunto dropdown 'Ordina per' nell'intestazione della schermata Incasso — ordina le scadenze/note di credito disponibili per il criterio scelto.
+			</description>
+            <pubDate>Mon, 17 Oct 2022 18:15:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b32.apk" sparkle:version="1.0.18" sparkle:os="android" />
+        </item>
+        <item>
             <title>Versione 1.0.17 (30)</title>
             <description>
 + La stampa della distinta base ora può essere annullata: se si sceglie 'No' nella richiesta di stampa, l'app non chiederà più di stampare la distinta.
@@ -22,16 +32,6 @@
 			</description>
             <pubDate>Thu, 13 Oct 2022 21:00:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b29.apk" sparkle:version="1.0.16" sparkle:os="android" />
-        </item>
-        <item>
-            <title>Versione 1.0.15 (28)</title>
-            <description>
-+ Dopo il pagamento alla consegna, all'invio della fattura firmata il backend manda un'email con allegato il PDF della fattura, come avviene per i DDT firmati.
-* Nella schermata Consegna, l'interfaccia di modifica delle quantità articoli e vuoti a rendere dà più spazio alla descrizione articoli/vuoti.
-- Risolto update a schermo delle quantità di articoli/vuoti dopo aver inviato il DDT firmato.
-			</description>
-            <pubDate>Wed, 12 Oct 2022 18:45:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b28.apk" sparkle:version="1.0.15" sparkle:os="android" />
         </item>
     </channel>
 </rss>
