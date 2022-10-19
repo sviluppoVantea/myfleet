@@ -4,6 +4,16 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.19 (33)</title>
+            <description>
++ Aggiunto controllo sulla rete nella schermata di login e selezione veicolo — se non c'è nessuna connessione disponibile, l'app mostra un messaggio chiedendo di riprovare più tardi.
++ Aggiunta anagrafica dei veicoli: oltre alla targa, l'app ora mostra la marca, il modello ed il tipo di veicolo — sia in selezione veicolo che all'interno di una missione.
++ Aggiunto pulsante in alto a dx nella schermata Missione per mostrare la distinta di base (in caso si desideri stamparla in altro momento).
+			</description>
+            <pubDate>Wed, 18 Oct 2022 14:15:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b33.apk" sparkle:version="1.0.19" sparkle:os="android" />
+        </item>
+        <item>
             <title>Versione 1.0.18 (32)</title>
             <description>
 + Aggiunto supporto per fare login automaticamente con il terminale POS — non è più necessario inserire nuovamente le credenziali SumUp dopo un'aggiornamento dell'app.
@@ -22,16 +32,6 @@
 			</description>
             <pubDate>Fri, 14 Oct 2022 17:00:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b30.apk" sparkle:version="1.0.17" sparkle:os="android" />
-        </item>
-        <item>
-            <title>Versione 1.0.16 (29)</title>
-            <description>
-- Risolto bug critico: dopo il pagamento alla consegna, se la generazione della fattura falliva, l'app non mostrava nessun errore: non era possibile completare la consegna.
-- Risolto bug critico: dopo il pagamento alla consegna, se la fattura non era stata firmata, l'app chiedeva nuovamente di effettuare il pagamento.
-- Risolto problema nella conferma del logout — se la password era vuota, il logout veniva effettuato lo stesso.
-			</description>
-            <pubDate>Thu, 13 Oct 2022 21:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b29.apk" sparkle:version="1.0.16" sparkle:os="android" />
         </item>
     </channel>
 </rss>
