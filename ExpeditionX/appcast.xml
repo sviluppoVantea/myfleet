@@ -4,6 +4,16 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.20 (34)</title>
+            <description>
+* La schermata Incasso ora indica le scadenze/note di credito non (più) selezionabili come disabilitate.
+- Risolto problema con l'estratto conto — in casi rari, la schermata Incasso non era disponibile nonostante ci fosse un incarico 'Incassi' per la relativa destinazione.
+- Risolto bug nell'alert di completamento per una destinazione — gli incarichi di tipo 'Consegna' e 'Ritiro vuoti' a volte non potevano essere annullati (in caso non ancora completi).
+			</description>
+            <pubDate>Thu, 19 Oct 2022 14:50:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b34.apk" sparkle:version="1.0.20" sparkle:os="android" />
+        </item>
+        <item>
             <title>Versione 1.0.19 (33)</title>
             <description>
 + Aggiunto controllo sulla rete nella schermata di login e selezione veicolo — se non c'è nessuna connessione disponibile, l'app mostra un messaggio chiedendo di riprovare più tardi.
@@ -22,16 +32,6 @@
 			</description>
             <pubDate>Mon, 17 Oct 2022 18:15:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b32.apk" sparkle:version="1.0.18" sparkle:os="android" />
-        </item>
-        <item>
-            <title>Versione 1.0.17 (30)</title>
-            <description>
-+ La stampa della distinta base ora può essere annullata: se si sceglie 'No' nella richiesta di stampa, l'app non chiederà più di stampare la distinta.
-* Quando una consegna è stata già effettuata (con o senza pagamento), l'elenco degli articoli/vuoti ora espande le descrizioni.
-- Risolto problema di selezione scadenze/note di credito nella schermata Incasso — a volte era necessario fare tap più volte per selezionare/deselezionare.
-			</description>
-            <pubDate>Fri, 14 Oct 2022 17:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b30.apk" sparkle:version="1.0.17" sparkle:os="android" />
         </item>
     </channel>
 </rss>
