@@ -4,6 +4,23 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.21 (37)</title>
+            <description>
++ Il pagamento alla consegna viene ora effettuato come un'operazione di incasso:
+  • se il cliente decide di pagare, si apre una schermata Incasso precompilata;
+  • è possibile pagare sia tramite POS che tramite contanti e assegno bancario;
+  • effettuato il pagamento, l'app invia automaticamente una proposta incassi contenente l'importo totale della consegna;
+  • inviata la proposta incassi, dalla schermata Consegna è possibile visualizzare la fattura relativa.
++ La schermata Consegna ora mostra il Tracking Number (se presente) per gli articoli da consegnare.
+- Risolto problema nella schermata Dettaglio — a volte, gli incarichi Consegna/Incasso non venivano immediatamente marcati come completi.
+* In caso di errori dal server durante l'invio di DDT o proposte incasso, l'app ora mostra un alert con la descrizione dell'errore.
+* Nella schermata Missione, la dialog di completamento di una destinazione ora abilita il pulsante 'Salva' solo dopo aver scelto una motivazione.
+* Nella schermata Dettaglio di una destinazione, la dialog di completamento incarichi ora abilita il pulsante 'Salva' solo dopo aver marcato il completamento.
+			</description>
+            <pubDate>Thu, 03 Nov 2022 14:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b37.apk" sparkle:version="1.0.21" sparkle:os="android" />
+        </item>
+        <item>
             <title>Versione 1.0.20 (34)</title>
             <description>
 * La schermata Incasso ora indica le scadenze/note di credito non (più) selezionabili come disabilitate.
@@ -22,16 +39,6 @@
 			</description>
             <pubDate>Wed, 18 Oct 2022 14:15:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b33.apk" sparkle:version="1.0.19" sparkle:os="android" />
-        </item>
-        <item>
-            <title>Versione 1.0.18 (32)</title>
-            <description>
-+ Aggiunto supporto per fare login automaticamente con il terminale POS — non è più necessario inserire nuovamente le credenziali SumUp dopo un'aggiornamento dell'app.
-* Modificato il flusso di pagamento alla consegna — la richiesta di pagamento avviene dopo l'invio del DDT firmato, e non è più necessario firmare la fattura (è possibile comunque visualizzarla, non firmata).
-+ Aggiunto dropdown 'Ordina per' nell'intestazione della schermata Incasso — ordina le scadenze/note di credito disponibili per il criterio scelto.
-			</description>
-            <pubDate>Mon, 17 Oct 2022 18:15:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b32.apk" sparkle:version="1.0.18" sparkle:os="android" />
         </item>
     </channel>
 </rss>
