@@ -9,13 +9,13 @@
 + Il pagamento alla consegna viene ora effettuato come un'operazione di incasso:
   • se il cliente decide di pagare, si apre una schermata Incasso precompilata;
   • è possibile pagare sia tramite POS che tramite contanti e assegno bancario;
-  • effettuato il pagamento, l'app invia automaticamente una proposta incassi contenente l'importo totale della consegna;
-  • inviata la proposta incassi, dalla schermata Consegna è possibile visualizzare la fattura relativa.
-+ La schermata Consegna ora mostra il Tracking Number (se presente) per gli articoli da consegnare.
-- Risolto problema nella schermata Dettaglio — a volte, gli incarichi Consegna/Incasso non venivano immediatamente marcati come completi.
-* In caso di errori dal server durante l'invio di DDT o proposte incasso, l'app ora mostra un alert con la descrizione dell'errore.
-* Nella schermata Missione, la dialog di completamento di una destinazione ora abilita il pulsante 'Salva' solo dopo aver scelto una motivazione.
+  • effettuato il pagamento, l'app invia una proposta incassi con l'importo della consegna;
+  • inviata la proposta incassi, dalla schermata Consegna è possibile visualizzarne la fattura.
++ La schermata Consegna ora mostra il Tracking Number per gli articoli da consegnare.
+* In caso di errori durante l'invio di DDT o proposte incassi, l'app ora mostra la descrizione dell'errore.
+* Nella schermata Missione, la dialog di completamento destinazione ora abilita il pulsante 'Salva' solo dopo aver scelto una motivazione.
 * Nella schermata Dettaglio di una destinazione, la dialog di completamento incarichi ora abilita il pulsante 'Salva' solo dopo aver marcato il completamento.
+- Risolto problema nella schermata Dettaglio — a volte, gli incarichi Consegna/Incasso non venivano marcati come completi.
 			</description>
             <pubDate>Thu, 03 Nov 2022 14:00:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b37.apk" sparkle:version="1.0.21" sparkle:os="android" />
