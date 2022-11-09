@@ -4,6 +4,17 @@
         <title>ExpeditionX - AppCast</title>
 		<link>https://raw.githubusercontent.com/sviluppoVantea/myfleet/master/ExpeditionX/appcast.xml</link>
         <item>
+            <title>Versione 1.0.22 (40)</title>
+            <description>
++ In caso gli articoli e/o vuoti associati ad un DDT non vengano scaricati correttamente con la missione, all’apertura della schermata Consegna verranno scaricati nuovamente.
+* Durante il download di una missione, gli articoli, vuoti ed estratti conto di una destinazione vengono ora scaricati in parallelo.
+* Nella schermata Incasso, la data selezionata viene evidenziata esplicitamente.
+- Risolto problema di comunicazione col backend nell’invio di una proposta incassi per pagamento alla consegna.
+			</description>
+            <pubDate>Wed, 09 Nov 2022 14:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b40.apk" sparkle:version="1.0.22" sparkle:os="android" />
+        </item>
+        <item>
             <title>Versione 1.0.21 (37)</title>
             <description>
 + Il pagamento alla consegna viene ora effettuato come un'operazione di incasso:
@@ -29,16 +40,6 @@
 			</description>
             <pubDate>Thu, 19 Oct 2022 14:50:00 +0000</pubDate>
             <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b34.apk" sparkle:version="1.0.20" sparkle:os="android" />
-        </item>
-        <item>
-            <title>Versione 1.0.19 (33)</title>
-            <description>
-+ Aggiunto controllo sulla rete nella schermata di login e selezione veicolo — se non c'è nessuna connessione disponibile, l'app mostra un messaggio chiedendo di riprovare più tardi.
-+ Aggiunta anagrafica dei veicoli: oltre alla targa, l'app ora mostra la marca, il modello ed il tipo di veicolo — sia in selezione veicolo che all'interno di una missione.
-+ Aggiunto pulsante in alto a dx nella schermata Missione per mostrare la distinta di base (in caso si desideri stamparla in altro momento).
-			</description>
-            <pubDate>Wed, 18 Oct 2022 14:15:00 +0000</pubDate>
-            <enclosure url="https://github.com/sviluppoVantea/myfleet/raw/master/ExpeditionX/ExpeditionX_b33.apk" sparkle:version="1.0.19" sparkle:os="android" />
         </item>
     </channel>
 </rss>
